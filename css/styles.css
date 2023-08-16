@@ -5,7 +5,7 @@ body {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
         
 }
@@ -14,7 +14,7 @@ h2 {
     font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11111111;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         text-align: center;
@@ -24,16 +24,14 @@ h3 {
     font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.4px;
 }
 
 p {
     color: #434455;
     font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
@@ -47,7 +45,7 @@ ul, ol {
     font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
-            line-height: 21px;
+            line-height: 1.16666667;
             letter-spacing: 0.54px;
             text-transform: uppercase;
 }
@@ -56,7 +54,7 @@ ul, ol {
     color: inherit;
     font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
@@ -68,20 +66,19 @@ ul, ol {
 .hero-title {
 color:#FFF;
 font-size: 56px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07142857;
     letter-spacing: 1.12px;
     
 }
 
 .hero-button {
+    cursor: pointer;
 color: #FFF;
     text-align: center;
     font-size: 16px;
-        font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.64px;
         border-radius: 4px;
             background: #4D5AE5;
@@ -102,17 +99,10 @@ a {
 }
 
 
-
-
-.our-features-head {
-    
-}
-
 .address-link {
     color: #434455;
     font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
@@ -123,8 +113,7 @@ a {
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
         width: 264px;
 }
@@ -134,7 +123,7 @@ a {
     font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.16666667;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
