@@ -28,6 +28,10 @@ h3 {
         letter-spacing: 0.4px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .text {
     color: #434455;
     font-size: 16px;
@@ -56,14 +60,14 @@ ul, ol {
 
 
 .navigation-link {
-    color: inherit;
+    color: #2e2f42;
     font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
-.navigation-link:hover, :focus {
+.navigation-link:hover {
     color: #404bbf
 }
 
@@ -99,7 +103,7 @@ color: #FFF;
             font-family: "Roboto", sans-serif;
 }
 .hero-button:hover, .hero-button:focus {
-    color: #404bbf
+    background-color: #404BBF
 }
 
 .our-team{
@@ -108,9 +112,6 @@ color: #FFF;
 
 
 
-a {
-    text-decoration: none;
-}
 
 
 .address-link {
@@ -129,6 +130,10 @@ a {
     color: #404bbf
 }
 
+.our-portfolio {
+    background-color: #FFFFFF;
+}
+
 .footer {
     background-color: #2E2F42;
 }
@@ -142,7 +147,8 @@ a {
 
 .web-studio-footer {
     color: #4D5AE5;
-    font-family: 'Raleway';
+    font-family: 'Raleway',
+        sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -152,7 +158,8 @@ a {
 
 .studio-footer {
     color: #F4F4FD;
-        font-family: 'Raleway';
+        font-family: 'Raleway',
+            sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
