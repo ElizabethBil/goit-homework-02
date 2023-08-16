@@ -4,35 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="web-studio"
+          ><span class="web">Web</span>Studio</a
+        >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="#studio" class="navigation-link">Studio</a></li>
+          <li><a href="#portfolio" class="navigation-link">Portfolio</a></li>
+          <li><a href="#contacts" class="navigation-link">Contacts</a></li>
         </ul>
       </nav>
 
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="address-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-button">Order Service</button>
       </section>
 
       <section>
-        <h2>Our Features</h2>
+        <h2 id="studio" class="our-features-head">Our Features</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -68,7 +89,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="our-team">
         <h2>Our Team</h2>
 
         <ul>
@@ -109,11 +130,81 @@
           </li>
         </ul>
       </section>
+
+      <section id="portfolio">
+        <h2>Our Portfolio</h2>
+
+        <ul>
+          <li>
+            <img
+              src="./images/our-portfolio/banking-app.jpg"
+              alt="Banking App Templates"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/cashless-payment.jpg"
+              alt="Cashless Payment Everywhere"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/meditation-app.jpg"
+              alt="Meditation App On Any Device"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/our-portfolio/taxi-service.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/screen-illustrations.jpg"
+              alt="Whatever Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/online-courses.jpg"
+              alt="Online Courses Happy Students"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer id="contacts" class="footer">
+      <a href="./index.html" class="web-studio-footer"
+        ><span class="web">Web</span>Studio</a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
