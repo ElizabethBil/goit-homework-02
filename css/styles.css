@@ -119,17 +119,23 @@ color: #FFF;
 
 .address {
     font-style: normal;
+}
+
+
+.address-mobile, .address-mail {
     color: #434455;
-    font-size: 16px;
+        font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
-.address-link:hover {
+.address-mobile:hover,
+.address-mail:hover {
     color: #404bbf
 }
 
-.address-link:focus {
+.address-mobile:focus,
+.address-mail:focus {
     color: #404bbf
 }
 
