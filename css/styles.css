@@ -17,7 +17,7 @@ body {
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
-        text-align: center;
+        /* text-align: center; */
         color: #2E2F42;
 }
 
@@ -54,7 +54,7 @@ ul, ol {
         font-weight: 700;
             line-height: 1.17;
             letter-spacing: 0.54px;
-            text-transform: uppercase;
+            /* text-transform: uppercase; */
 }
 .studio {
     color: #2E2F42;
@@ -79,7 +79,7 @@ ul, ol {
 
 .hero {
     background-color: #2E2F42;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .hero-title {
@@ -94,7 +94,7 @@ font-size: 56px;
 .hero-button {
     cursor: pointer;
 color: #FFF;
-    text-align: center;
+    /* text-align: center; */
     font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -133,7 +133,7 @@ color: #FFF;
     color: #404bbf
 }
 
-.address-mobile:focus {
+.address-link:focus {
     color: #404bbf
 }
 
@@ -158,7 +158,7 @@ color: #FFF;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
 }
 
 .studio-footer {
@@ -169,5 +169,5 @@ color: #FFF;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
 }
