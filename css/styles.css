@@ -10,7 +10,7 @@ body {
         
 }
 
-h2 {
+section-title {
     font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -18,14 +18,16 @@ h2 {
         letter-spacing: 0.72px;
         text-transform: capitalize;
         text-align: center;
+        color: #2E2F42;
 }
 
-h3 {
+text-title {
     font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
+        color: #2E2F42;
 }
 
 a {
@@ -110,11 +112,13 @@ color: #FFF;
     background-color: #F4F4FD;
 }
 
+.cards {
+    background-color: #FFF;
+}
 
 
 
-
-.address-link {
+.address {
     font-style: normal;
     color: #434455;
     font-size: 16px;
@@ -130,9 +134,7 @@ color: #FFF;
     color: #404bbf
 }
 
-.our-portfolio {
-    background-color: #FFFFFF;
-}
+
 
 .footer {
     background-color: #2E2F42;
